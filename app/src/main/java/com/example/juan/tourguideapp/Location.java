@@ -2,15 +2,15 @@ package com.example.juan.tourguideapp;
 
 class Location {
 
-    private  String locationName;
-    private  String locationAddress;
-    private  String locationPhone;
-    private  String locationWebPage;
+    private String locationName;
+    private String locationAddress;
+    private String locationPhone;
+    private String locationWebPage;
     private String locationEmail;
     private static final int NO_IMAGE_PROVIDED = -1;
     private int imageResourceId = NO_IMAGE_PROVIDED;
 
-  public Location(String locationName, String locationWebPage, String locationAddress, String locationPhone, String locationEmail, int imageResourceId) {
+    public Location(String locationName, String locationWebPage, String locationAddress, String locationPhone, String locationEmail, int imageResourceId) {
         this.locationName = locationName;
         this.locationWebPage = locationWebPage;
         this.locationAddress = locationAddress;
