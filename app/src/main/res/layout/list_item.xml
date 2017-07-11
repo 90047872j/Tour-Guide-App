@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/list_item_style">
+
+    <TextView
+        android:id="@+id/textView_location_name"
+        style="@style/textView_location_name_style"
+        android:text="@string/textView_location_name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/information_layout_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/information_imageView_style"
+            android:src="@drawable/bodega_flamenca"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon_image_style"
+                    android:src="@drawable/ic_info"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView_location_webPage"
+                    style="@style/information_text_style"
+                    android:text="@string/textView_location_webPage" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon_image_style"
+                    android:src="@drawable/ic_location"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView_location_address"
+                    style="@style/information_text_style"
+                    android:text="@string/textView_location_address" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon_image_style"
+                    android:src="@drawable/ic_phone"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView_location_phone"
+                    style="@style/information_text_style"
+                    android:text="@string/textView_location_phone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon_image_style"
+                    android:src="@drawable/ic_email"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView_location_email"
+                    style="@style/information_text_style"
+                    android:text="@string/textView_location_email" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
